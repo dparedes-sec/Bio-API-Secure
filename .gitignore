@@ -1,0 +1,53 @@
+# --- Secretos y credenciales ---
+.env
+.env.local
+.env.production
+secrets/
+*.key
+*.pem
+api_keys.txt
+credentials*
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.pytest_cache/
+htmlcov/
+.coverage
+dist/
+build/
+*.egg-info/
+
+# --- Base de datos ---
+*.db
+*.sqlite3
+pgdata/
+
+# --- Docker ---
+docker-data/
+
+# --- Logs ---
+*.log
+logs/
+
+# --- IDEs ---
+.vscode/
+.idea/
+*.swp
+*~
+
+# --- Sistema operativo ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Alembic ---
+# Mantener la carpeta alembic/ pero ignorar versiones generadas localmente
+# (comenta esto si quieres versionar las migraciones — recomendado)
+# alembic/versions/
+
+# --- Testing ---
+.tox/
